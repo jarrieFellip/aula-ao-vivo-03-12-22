@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #272727 ;
+
+}
+
+.bemVindo{
+    text-align: center;
+    background-color: red;
+    background: red;
+}
+
+.bemVindo p {
+    color: aliceblue;
+    font-size: 3rem;
+    font-size: 600;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #CA7900; 
+    width: 70%;
+    height: 30%;
+    border-radius: 30px;
+}
+
+.card p {
+    color: white;
+    font-size: 2rem;
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: space-around;
+    width: 30px;
+}
+
+.cardBtn button {
+    padding: 5px 30px;
+    background-color: #CA7900;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+} 
